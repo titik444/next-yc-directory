@@ -92,7 +92,7 @@ export default async function Page({
           <div className="max-w-4xl mx-auto">
             <p className="text-30-semibold">Editor Picks</p>
 
-            <ul className="mt-7 card-grid-sm">
+            <ul className="mt-7 card_grid-sm">
               {editorPosts.map((post: StartupTypeCard, i: number) => (
                 <StartupCard key={i} post={post} />
               ))}
